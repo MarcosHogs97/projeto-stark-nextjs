@@ -2,7 +2,7 @@ import React from "react";
 import { Icon } from '@iconify/react';
 import DropdownSobre from "./dropdownSobre";
 import DropdownArtefatos from "./dropdownArtefatos";
-import DropdownTeste from "./dropdownTeste";
+
 
 function navegation() {
     return (
@@ -12,8 +12,7 @@ function navegation() {
                     <Icon icon="file-icons:wolfram" color="black" width="50" height="50" />
                     <a className="px-4 py-2 text-sm rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5" href="http://">Home</a>  
                     <DropdownSobre />
-                    <DropdownArtefatos />
-                    <DropdownTeste />
+                    <DropdownArtefatos />                
                 </ul>
             </nav>
         </main>
